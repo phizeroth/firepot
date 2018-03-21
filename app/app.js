@@ -12,12 +12,13 @@ var port = process.env.PORT || 3000;
 // Create a new firebase reference
 //You can obtain this chunk of code by going to your firebase dashboard and selecting "Add Firebase to your web app"
 var config = {
-        apiKey: "",
-        authDomain: "",
-        databaseURL: "",
-        storageBucket: "",
-        messagingSenderId: ""
-    };
+  apiKey: "AIzaSyDNEKm6Ob1AEzCTcobqbp68joSc0i-tjKk",
+  authDomain: "firepot-phiz.firebaseapp.com",
+  databaseURL: "https://firepot-phiz.firebaseio.com",
+  projectId: "firepot-phiz",
+  storageBucket: "firepot-phiz.appspot.com",
+  messagingSenderId: "530141388106"
+};
 Firebase.initializeApp(config);
 
 var firebaseRef = Firebase.database().ref();

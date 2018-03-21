@@ -5,11 +5,12 @@ var app = angular.module("app", ["firebase"]);
 app.controller("Ctrl", function($scope, $firebaseObject) {
     // Initialize Firebase
     var config = {
-        apiKey: "",
-        authDomain: "",
-        databaseURL: "",
-        storageBucket: "",
-        messagingSenderId: ""
+        apiKey: "AIzaSyDNEKm6Ob1AEzCTcobqbp68joSc0i-tjKk",
+        authDomain: "firepot-phiz.firebaseapp.com",
+        databaseURL: "https://firepot-phiz.firebaseio.com",
+        projectId: "firepot-phiz",
+        storageBucket: "firepot-phiz.appspot.com",
+        messagingSenderId: "530141388106"
     };
     firebase.initializeApp(config);
 
