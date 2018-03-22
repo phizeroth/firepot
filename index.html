@@ -5,10 +5,15 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body ng-controller="Ctrl">
-    <div class="header" ng-style="{'background-color': 'rgb(' + data.r + ',' + data.g + ',' + data.b +')'}">
-      <h1>
-	Finch's Color Gizmo {{ data.r }} : {{ data.g }} : {{ data.b }}
-      </h1>
+    <div id="container" ng-style="{'background-color': 'rgb(' + data.r + ',' + data.g + ',' + data.b +')'}">
+      <div id="contents">
+        <div id="name">
+          Finch's Color-O-Matic Gizmo
+        </div>
+        <div id="rgb">
+          <div id="r">{{ data.r }}</div> : <div id="g">{{ data.g }}</div> : <div id="b">{{ data.b }}</div>
+        </div>
+      </div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.19/angular.min.js"></script>
