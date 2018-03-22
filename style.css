@@ -13,11 +13,11 @@ html, body {
 #container {
     display: flex;
     width: 100%;
-    height: 240px;
+    height: 33%;
+    min-height: 240px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    border-radius: 8px;
     background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
 }
 
@@ -34,7 +34,7 @@ html, body {
 
 #name {
     font-size: 50%;
-    padding: 8px 12px;
+    padding: 16px 12px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -54,4 +54,18 @@ html, body {
 #b {
     display: inline;
     color: #22e;
+}
+
+@media screen and (orientation: portrait) {
+    #container {
+        height: 25%;
+    }
+    #contents {
+        width: 80%;
+        font-size: 500%;
+    }
+
+    #name {
+        font-size: 50%;
+    }
 }
