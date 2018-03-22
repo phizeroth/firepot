@@ -18,7 +18,7 @@ html, body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+    background-image: url('public/light-wool.png')
 }
 
 #contents {
