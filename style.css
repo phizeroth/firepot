@@ -53,7 +53,7 @@ html, body {
 
 #b {
     display: inline;
-    color: #22e;
+    color: #33f;
 }
 
 @media screen and (orientation: portrait) {
@@ -62,7 +62,7 @@ html, body {
     }
     #contents {
         width: 80%;
-        font-size: 500%;
+        font-size: 600%;
     }
 
     #name {
